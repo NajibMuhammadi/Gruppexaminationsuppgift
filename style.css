@@ -8,12 +8,10 @@ body{
 .wrapper{
     max-width: 1000px;
     margin: 0px auto;
-
 }
 
 .cards{
     display: flex;
-
 }
 
 body .cards .bigcard{
@@ -37,8 +35,6 @@ body .wrapper .cards .smallcard .bruncard{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-
 }
 body .wrapper .cards .smallcard .gröncard{
     width: 500px;
@@ -48,22 +44,16 @@ body .wrapper .cards .smallcard .gröncard{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-
-
 }
 header .navItem {
     width: 1000px;
     height: 60px;
     box-shadow: 0px 2px 5px grey;
-    
-   
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
 }
+
 header .navItem a{
     text-decoration: none;
     color: #055647;
