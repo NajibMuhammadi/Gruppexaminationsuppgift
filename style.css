@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro';
+}
+div.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 2000px;
+}
+.cards{
+    display: flex;
+}
+.bigcard{
+    width: 50%;
+    background-image: url(img/Rectangle\ 25.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bigcard img{
+    position: absolute;
+    width: 50%;
+    left: 24%;
+    top: 24%;
+}
+.smallcard{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    min-height: 4rem;
+    align-items: center;
+    box-shadow: 0px 3px 3px -4px rgba(0,0,0,0.89);
+}
+header nav.navItem{
+    padding: 1.44rem;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+header nav.navItem a{
+    padding: 0 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0a846e;
+    font-family: 'Maven Pro';
+}
+
+
+section.Planthood-container h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding: 1.5rem;
+    color: #0a846e;
+    font-weight: 700;
+}
+section.Planthood-container section.Planthood{
+    display: flex;
+    justify-content: space-between;
+    min-height: 450px;
+    position: relative;
+    padding: 1.5rem 1.5rem 4rem 1.5rem;
+}
+.Planthood-container section article.runda{
+    width: 48%;
+    background-color: #055647;
+    border-radius: 50%;
+    background-image: url(img/Vectorseedpackage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Planthood-container section article.sasong-text{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Planthood-container button{
+    align-self: flex-end;
+    background-color: #0a846e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 30px;
+}
+
+.recipeCardsContainer{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "purpleItem redItem blueItem";
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.purpleBg{
+    grid-area: purpleItem;
+}
+.redBg{
+    grid-area: redItem;
+}
+.blueBg{
+    grid-area: blueItema;
+}
+.recipeCardsContainer article.recipeCard figure{
+    margin: 0;
+    position: relative;
+}
+.recipeCardsContainer article.recipeCard img{
+    width: 100%;
+}
+.recipeCardsContainer article.recipeCard img:nth-child(2){
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+}
+.gurka-time, .tabort{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.planteringar{
+    position: relative;
+    margin-top: 6rem;
+}
+.planteringar::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -200%;
+    width: 25%;
+    left: 38%;
+    border-top: 3px solid #0a846e;
+}
+.planteringar h2{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+
+
+
+
+
+
+
+
