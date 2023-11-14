@@ -5,52 +5,69 @@ body{
     box-sizing: border-box;
     font-family: 'Maven Pro';
 }
-div.wrapper{
+.wrapper{
     max-width: 1000px;
-    margin: 0 auto;
-    height: 2000px;
-}
-.cards{
-    display: flex;
-}
-.bigcard{
-    width: 50%;
-    background-image: url(img/Rectangle\ 25.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.bigcard img{
-    position: absolute;
-    width: 50%;
-    left: 24%;
-    top: 24%;
-}
-.smallcard{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+    margin: 0px auto;
+
 }
 
-header{
-    min-height: 4rem;
-    align-items: center;
-    box-shadow: 0px 3px 3px -4px rgba(0,0,0,0.89);
-}
-header nav.navItem{
-    padding: 1.44rem;
+.cards{
     display: flex;
-    flex-direction: row; 
-    justify-content: space-around;
+
 }
-header nav.navItem a{
-    padding: 0 5px;
+
+body .cards .bigcard{
+    width: 500px;
+    height: 540px;
+    background-image: url(img/Rectangle\ 25.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body .wrapper .cards .smallcard .bruncard{
+    width: 500px;
+    height: 270px;
+    background-color: #9E6D52;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+body .wrapper .cards .smallcard .gröncard{
+    width: 500px;
+    height: 270px;
+    background-color: #0A846E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+header .navItem {
+    width: 1000px;
+    height: 60px;
+    box-shadow: 0px 2px 5px grey;
+    
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+header .navItem a{
     text-decoration: none;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #0a846e;
-    font-family: 'Maven Pro';
+    color: #055647;
+font-family: 'Maven Pro';
 }
 
 
