@@ -38,7 +38,7 @@ body{
 }
 header .navItem {
     height: 4rem;
-    box-shadow: -3px 10px 11px -14px rgba(66, 68, 90, 1);
+    box-shadow: -3px 10px 11px -14px rgb(66, 68, 90);
     display: flex;
     justify-content: space-around;
     align-items: center;
