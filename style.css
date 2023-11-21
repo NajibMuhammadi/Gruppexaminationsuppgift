@@ -89,7 +89,8 @@ header .navItem a{
     color: white;
     border: none;
     border-radius: 4px;
-    padding: 15px 30px;
+    padding: 15px 30px; 
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .recipeCardsContainer{
@@ -97,17 +98,20 @@ header .navItem a{
     grid-gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "purpleItem redItem blueItem";
-    padding: 1.5rem 1.5rem 0 1.5rem;
+    padding: 3rem 1.5rem 0 1.5rem;
 }
 
 .purpleBg{
     grid-area: purpleItem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .redBg{
     grid-area: redItem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .blueBg{
-    grid-area: blueItema;
+    grid-area: blueItem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .recipeCardsContainer .recipeCard figure{
     margin: 0;
@@ -126,6 +130,15 @@ header .navItem a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 1rem;
+}
+.tabort{
+    padding-bottom: 1rem;
+}
+.tabort button{
+    background-color: #B93857;
+    box-shadow: none;
+    padding: 10px 20px;
 }
 .planteringar{
     position: relative;
@@ -142,7 +155,7 @@ header .navItem a{
 }
 .planteringar h2{
     text-align: center;
-    margin: 0 0 1rem 0;
+    margin: 0;
 }
 
 main .Planthood-container .footer-button{
@@ -152,16 +165,97 @@ main .Planthood-container .footer-button{
 }
 main .Planthood-container .footer-button button{
     align-self: center;
+    font-size: 1.5rem;
 }
 .Planthood:nth-child(7){
     flex-direction: row-reverse;
 }
+.Planthood:nth-child(7) .runda{
+    background-image: url(img/Group\ 3.png);
+}
 .Planthood:nth-child(7) button{
     align-self: flex-start;
     width: 50%;
+    font-size: 1rem;
 }
 
+.box{
+    width: 100%;
+    background-image: url(img/Rectangle\ 22.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    color: aliceblue;
 
+}
+
+.box .svartdel{
+    width: 50%;
+    height: 500px;
+    background: rgba(0, 0 , 0, 0.8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box .svartdel .talefon{
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 1rem;
+
+}
+.box .svartdel .talefon img{
+   margin-right: 0.rem;
+}
+.box .svartdel .emil{
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 1rem;
+}
+.box .svartdel .emil img{
+margin-left: 0.5rem;
+}
+
+.box .svartdel img {
+    margin-top: 0.7rem;
+}
+
+.box .gröndel{
+    width: 50%;
+    background-color:green;
+    background: rgba(0, 0 , 0, 0.2);
+}
+.box .svartdel a{
+  color: white;
+  text-decoration: none;
+}
+.box .gröndel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svartdel img{
+    width: 30px;
+    height: 30px;
+}
+.svartdel h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.footer-h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 3px grey;
+    margin-bottom: 3rem;
+}
+footer h3{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 0.5;
+  font-family: 'Maven Pro';
+}
 
 
 
